@@ -2,6 +2,29 @@
     margin: 0;
     padding: 0;
 }
+.em {
+    background-color: #333335;
+    z-index: 10;
+    width: 450px;
+    height: 50px;
+    position: absolute;
+    border: none;
+    transform: translate(0, -55px);
+    font-size: 11.5pt;
+    color: White;
+}
+    input::-webkit-input-placeholder {
+    color: white;
+    }
+    input:-moz-placeholder {
+    color: white;
+    }
+    input::-moz-placeholder {
+    color: white;
+    }
+    input:-ms-input-placeholder {
+    color: white;
+    }
 .body {
     width: 100vw;
     height: 150vh;
